@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 // Connection string with the database name specified (e.g., 'myNewDatabase')
 const uri =
-  "mongodb+srv://admin:admin%40123@cluster0.8wnnoy6.mongodb.net/myNewDatabase";
+  "CONNECTION_URL/myNewDatabase";
 
 mongoose
   .connect(uri)
